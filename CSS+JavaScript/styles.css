@@ -2,13 +2,17 @@
     /* Light Theme Colors */
     --primary-color: #4a6fa5;
     --secondary-color: #6b9080;
-
+    --bg-color: #f8f9fa;
+    --font-color: #2b2d42;
+    --heading-color: #1b263b;
 }
 
 [data-theme="dark"] {
     --primary-color: #7f5af0;
     --secondary-color: #2cb67d;
-
+    --bg-color: #16161a;
+    --font-color: #94a1b2;
+    --heading-color: #fffffe;
 }
 
 body {
