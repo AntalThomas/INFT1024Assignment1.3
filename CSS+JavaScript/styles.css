@@ -1,0 +1,25 @@
+:root {
+    /* Light Theme Colors */
+    --primary-color: #4a6fa5;
+    --secondary-color: #6b9080;
+
+}
+
+[data-theme="dark"] {
+    --primary-color: #7f5af0;
+    --secondary-color: #2cb67d;
+
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
+p {
+    background-color: var(--secondary-color);
+    padding: 10px 0 10px 0;
+}
+
+ul {
+    padding: 0;
+}
