@@ -69,3 +69,31 @@ nav ul {
     flex-direction: row;
     justify-content: space-around;
 }
+
+/* 10 */
+aside {
+    color: var(--c-green);
+}
+
+aside a {
+    color: var(--c-red);
+}
+
+aside a:hover {
+    color: var(--c-blue);
+}
+
+/* 11 */
+body {
+    width: 800px;
+}
+
+/* 12 */
+article h1, article h2, article h3 {
+    padding-top: 50px;
+}
+
+/* 13 */
+main {
+    display: flex;
+}
